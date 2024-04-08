@@ -1,0 +1,44 @@
+.mobile-menu {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(100%);
+  padding: 0;
+  padding-left: 80px;
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+    color: var(--text-black);
+    border-radius: 0;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  nav {
+    a {
+      display: block;
+      margin-bottom: 14px;
+      font-size: 20px;
+    }
+  }
+
+  &.opened {
+    transform: translateX(0);
+    transition: transform 0.3s;
+  }
+
+  &__call {
+    gap: 12px;
+    color: var(--primary); 
+  }
+
+  @include sm {
+    nav {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}

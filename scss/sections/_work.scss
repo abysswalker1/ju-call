@@ -1,0 +1,54 @@
+.work {
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  ul {
+    li {
+      font-size: 24px;
+      font-family: 'Gilroy';
+      margin-bottom: 20px;
+      display: flex;
+      &::before {
+        content: '';
+        margin-right: 20px;
+        width: 15px;
+        height: 15px;
+        background-color: var(--primary);
+        margin-top: 8px;
+        border-radius: 50px;
+        flex-shrink: 0;
+      }
+    }
+  }
+  &-image {
+    img {
+      margin-bottom: 30px;
+    }
+  }
+
+  @include lg {
+    ul {
+      li {
+        font-size: 18px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  @include md {
+    &-content {
+      flex-direction: column;
+    }
+    &-image {
+      img {
+        border-radius: 20px;
+        object-position: top;
+        height: 180px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,225 @@
+:root {
+    --primary: #3CA2FF;
+    --text-black: #212121;
+    --bg: #F8F8F8;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: 
+        url(../fonts/Gilroy-Regular.woff) format('woff'), 
+        url(../fonts/Gilroy-Regular.woff2) format('woff2');
+    font-weight: 400;
+}
+
+html {
+    
+}
+
+body {
+   font-family: "Manrope", sans-serif;
+   background-color: var(--bg);
+}
+
+body {
+    &:has(.modal-wrap.opened) {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+}
+
+h1, h2, h3 {
+    font-family: "Play";
+    font-weight: 700;
+    color: var(--text-black);
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 55px;
+    margin-bottom: 50px;
+    @include md {
+        font-size: 38px;  
+        margin-bottom: 40px; 
+    }
+    @include sm {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    @include sm {
+        font-size: 18px;
+    }
+}
+
+p {
+    line-height: 135%;
+}
+
+img {
+    object-fit: cover;
+}
+
+a {
+    display: inline-block;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.section {
+    padding: 80px 0;
+    @include lg {
+        padding: 40px 0;
+    }
+    @include lg {
+        padding: 30px 0;
+    }
+}
+
+.circle {
+    border-radius: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1190px;
+    @include lg {
+        max-width: 798px;
+    }
+
+    @include md {
+        max-width: 550px;
+    }
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.btn {
+    background-color: var(--primary);
+    color: #fff;
+    width: 100%;
+    border-radius: 40px;
+    height: 70px;
+    padding: 10px;
+    transition: 0.2s;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover {
+        background-color: #fff;
+        color: var(--primary);
+    }
+
+    @include md {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    @include sm {
+        font-size: 12px;
+        height: 40px;
+    }
+}
+
+.input-wrap {
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin-bottom: 15px;
+    input {
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+        &::placeholder {
+            color: inherit;
+        }
+    }
+}
+
+.submit {
+    height: 70px;
+    color: var(--primary);
+    background-color: #fff;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover {
+        background-color: rgba(225,225,225,0.9);
+    }
+}
+
+form {
+    .submit {
+        width: 100%;
+        max-width: 360px;
+        margin-top: 40px;
+    }
+
+    @include md {
+        .submit {
+            max-width: 100%;
+        }
+    }
+
+    @include sm {
+        .submit {
+            height: 50px;
+            font-size: 16px;
+        }
+    }
+}
+
+.timer {
+    color: var(--bg);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    span {
+        display: inline-block;
+        height: 60px;
+        width: 43px;
+        background-color: var(--bg);
+        color: var(--primary);
+        padding-left: 9px;
+        border-radius: 14px;
+    }
+    .minutes {
+        span {
+            margin-right: 2px;
+        }
+    }
+
+    .seconds {
+        span {
+            margin-left: 2px;
+        }
+    }
+
+    @include sm {
+        font-size: 30px;
+        span {
+            width: 36px;
+            height: 45px;
+        }
+    }
+}

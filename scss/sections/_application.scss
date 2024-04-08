@@ -1,0 +1,45 @@
+.application {
+  overflow: hidden;
+  &-content {
+    padding: 50px 60px;
+    background: var(--primary) url(/images/application-bg.svg)
+    no-repeat;
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  h2 {
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  &-image {
+    width: 500px;
+    height: 382px;
+    img {
+      height: 100%;
+      border-radius: 20px;
+    }
+  }
+
+  @include lg {
+    &-image {
+      display: none;
+    }
+  }
+
+  @include sm {
+    h2 {
+      margin-bottom: 30px;
+    }
+    .container {
+      padding: 0;
+    }
+    &-content {
+      padding: 30px 15px;
+      border-radius: 0;
+    }
+  }
+}

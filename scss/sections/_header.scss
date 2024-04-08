@@ -1,0 +1,89 @@
+.header {
+  padding-top: 20px;
+  margin-bottom: 80px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo {
+    border-radius: 20px;
+    background-color: var(--primary);
+    height: 50px;
+    color: #fff;
+    padding: 0 23px 0 25px;
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    gap: 12px;
+    flex-shrink: 1;
+
+  }
+
+  &-navigation {
+    color: var(--text-black);
+    gap: 28px;
+    padding-left: 15px;
+  }
+
+  &-call {
+    height: 46px;
+    border: 1px solid var(--primary);
+    border-radius: 40px;
+    width: 100%;
+    max-width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+    transition: 0.2s;
+    &:hover {
+      background-color: var(--primary);
+      color: #fff;
+    }
+  }
+
+  &-menu {
+    display: none;
+  }
+
+  @include lg {
+    &-logo {
+      height: 45px;
+      font-size: 20px;
+      svg {
+        width: 28px;
+      }
+    }
+    &-navigation {
+      font-size: 12px;
+      gap: 15px;
+      padding-left: 0;
+    }
+    &-call {
+      font-size: 12px;
+      height: 40px;
+      max-width: 150px;
+    }
+  }
+
+  @include md {
+    padding-top: 15px;
+    margin-bottom: 40px;
+
+    &-navigation {
+      display: none;
+    }
+
+    &-call {
+      display: none;
+    }
+
+    &-menu {
+      display: block;
+    }
+  }
+
+  @include sm {
+    margin-bottom: 80px;
+  }
+}
