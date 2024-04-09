@@ -1,8 +1,8 @@
 .hero {
-  padding-bottom: 80px;
   background: url(/images/hero-bg.svg)
     no-repeat center center;
     background-size: cover;
+    padding-top: 148px;
   &-content {
     flex-direction: column;
   }
@@ -73,8 +73,10 @@
   }
 
   @include md {
+    padding-top: 120px;
     h1 {
       font-size: 48px;
+      margin-bottom: 50px;
       img {
         top: 5px;
         height: 48px;

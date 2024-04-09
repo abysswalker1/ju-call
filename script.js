@@ -100,7 +100,7 @@ class Modal {
 
   document.addEventListener('DOMContentLoaded', function () {
     // Открытие спец. предложения
-    setTimeout(openSpecialOffer, 5000);
+    // setTimeout(openSpecialOffer, 5000);
 
     // Воспроизведение аудио
     let _settings = {

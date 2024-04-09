@@ -1,6 +1,7 @@
 .header {
   padding-top: 20px;
-  margin-bottom: 80px;
+  position: absolute;
+  width: 100%;
   .container {
     display: flex;
     justify-content: space-between;
@@ -81,9 +82,5 @@
     &-menu {
       display: block;
     }
-  }
-
-  @include sm {
-    margin-bottom: 80px;
   }
 }

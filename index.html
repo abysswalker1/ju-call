@@ -11,31 +11,30 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="hero">
-      <header class="header">
-        <div class="container">
-          
-          <a href="#" class="header-logo center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
-              <path d="M27.1 28.5C24.3222 28.5 21.5724 27.9 18.8507 26.7C16.1289 25.5 13.6564 23.7889 11.4333 21.5667C9.21111 19.3444 7.5 16.8778 6.3 14.1667C5.1 11.4556 4.5 8.7 4.5 5.9V4.5H12.3667L13.6 11.2L9.8 15.0333C10.2889 15.9 10.8333 16.7222 11.4333 17.5C12.0333 18.2778 12.6778 19 13.3667 19.6667C14.0111 20.3111 14.7169 20.928 15.484 21.5173C16.2511 22.1067 17.0787 22.6564 17.9667 23.1667L21.8333 19.3L28.5 20.6667V28.5H27.1Z" fill="white"/>
-            </svg>
-            <span>JU CALL</span>
-          </a>
-          <nav class="header-navigation center">
-            <a href="#">Примеры разговоров</a>
-            <a href="#">Запросы</a>
-            <a href="#">Что входит в работу</a>
-            <a href="#">Почему мы</a>
-          </nav>
-          <button class="header-call center" type="button">Заказать звонок</button>
+  <header class="header">
+    <div class="container">
+      
+      <a href="#" class="header-logo center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+          <path d="M27.1 28.5C24.3222 28.5 21.5724 27.9 18.8507 26.7C16.1289 25.5 13.6564 23.7889 11.4333 21.5667C9.21111 19.3444 7.5 16.8778 6.3 14.1667C5.1 11.4556 4.5 8.7 4.5 5.9V4.5H12.3667L13.6 11.2L9.8 15.0333C10.2889 15.9 10.8333 16.7222 11.4333 17.5C12.0333 18.2778 12.6778 19 13.3667 19.6667C14.0111 20.3111 14.7169 20.928 15.484 21.5173C16.2511 22.1067 17.0787 22.6564 17.9667 23.1667L21.8333 19.3L28.5 20.6667V28.5H27.1Z" fill="white"/>
+        </svg>
+        <span>JU CALL</span>
+      </a>
+      <nav class="header-navigation center">
+        <a href="#">Примеры разговоров</a>
+        <a href="#">Запросы</a>
+        <a href="#">Что входит в работу</a>
+        <a href="#">Почему мы</a>
+      </nav>
+      <button class="header-call center" type="button">Заказать звонок</button>
 
-          <button class="header-menu" data-modal-id="mobile-menu">
-            <img src="/images/burger-icon.svg" alt="">
-          </button>
-        </div>
-      </header>
-
+      <button class="header-menu" data-modal-id="mobile-menu">
+        <img src="/images/burger-icon.svg" alt="">
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="section hero">
       <div class="container">
         <div class="hero-content center">
           <h1>
@@ -72,296 +71,205 @@
           </div>
         </div>
       </div>
-    </div>
-    <main>
-      <section class="calls section" id="calls">
-        <div class="container">
-          <h2>
-            Предлагаем послушать 
-            <span class="primary">разговоры наших менеджеров</span>
-          </h2>
-          <div class="calls-examples">
-            <div class="calls-audio">
-              <img class="calls-audio__image" src="/images/call-example-1.png" alt="">
-              <h3>Недвижимость</h3>
-              <button class="calls-audio__controlls center" data-audio="/audio/audio-example.mp3" type="button">
-                <img class="audio-start" src="/images/audio-start.svg" alt="">
-                <img class="audio-pause" src="/images/audio-pause.svg" alt="">
-                <span class="audio-example-text"></span>
-              </button>
-            </div>
-            <div class="calls-audio">
-              <img class="calls-audio__image" src="/images/call-example-2.png" alt="">
-              <h3>Автосалон</h3>
-              <button class="calls-audio__controlls center" data-audio="/audio/audio-example.mp3" type="button">
-                <img class="audio-start" src="/images/audio-start.svg" alt="">
-                <img class="audio-pause" src="/images/audio-pause.svg" alt="">
-                <span class="audio-example-text"></span>
-              </button>
-            </div>
-            <div class="calls-audio">
-              <img class="calls-audio__image" src="/images/call-example-3.png" alt="">
-              <h3>Салон красоты</h3>
-              <button class="calls-audio__controlls center" data-audio="/audio/audio-example.mp3" type="button">
-                <img class="audio-start" src="/images/audio-start.svg" alt="">
-                <img class="audio-pause" src="/images/audio-pause.svg" alt="">
-                <span class="audio-example-text"></span>
-              </button>
-            </div>
-            <div class="calls-audio">
-              <img class="calls-audio__image" src="/images/call-example-4.png" alt="">
-              <h3>Кредитование</h3>
-              <button class="calls-audio__controlls center" data-audio="/audio/audio-example.mp3" type="button">
-                <img class="audio-start" src="/images/audio-start.svg" alt="">
-                <img class="audio-pause" src="/images/audio-pause.svg" alt="">
-                <span class="audio-example-text"></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="calls-button_wrap center">
-          <button class="calls-button btn center">Послушать звонки в моей сфере</button>
-        </div>
-      </section>
-      <section class="section work" id="work">
-        <div class="container">
-          <h2>Что <span class="primary">входит в работу</span></h2>
-          <div class="work-content">
-            <ul>
-              <li>Работа в CRM заказчика, контроль качества</li>
-              <li>Формирование отчета с рекомендациями</li>
-              <li>Предоставление записей разговоров</li>
-              <li>Обучение операторов продукту заказчика</li>
-              <li>Подготовки проекта до 1 рабочего дня</li>
-              <li>Оплата телефонии</li>
-              <li>Подготовки и ведения проекта</li>
-              <li>Администрирование проекта </li>
-              <li>Первичная подготовка сценария</li>
-              <li>Внесение корректировок в скрипт</li>
-            </ul>
-            <div class="work-image">
-              <img src="/images/work-image.png" alt="">
-              <button class="btn center">Узнать стоимость</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section requests" id="requests">
-        <div class="container">
-          <h2>Работаем с <span class="primary">различными запросами</span></h2>
-          <div class="requests-content">
-            <div class="requests-item center">
-              <img class="requests-item__image" src="/images/requests-item-1.svg" alt="">
-              <div class="requests-item__info">
-                <h3>Информирование</h3>
-                <ul>
-                  <li>об акции;</li>
-                  <li>о задолженности;</li>
-                  <li>о каких-либо изменениях в компании.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="requests-item center">
-              <img class="requests-item__image" src="/images/requests-item-2.svg" alt="">
-              <div class="requests-item__info">
-                <h3>Анкетирование</h3>
-                <ul>
-                  <li>оценка качества работы (проделанной работы/услуги);</li>
-                  <li>социальный опрос;</li>
-                  <li>причины отказа.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="requests-item center">
-              <img class="requests-item__image" src="/images/requests-item-3.svg" alt="">
-              <div class="requests-item__info">
-                <h3>Актуализация</h3>
-                <ul>
-                  <li>подтверждение записи;</li>
-                  <li>возврат клиента;</li>
-                  <li>выявление заинтересованности.</li>
-                </ul>
-              </div>
-            </div>
-        </div>
-      </section>
-      <section class="section steps" id="steps">
-        <div class="container">
-          <h2>Этапы <span class="primary">работы</span></h2>
-          <div class="steps-content">
-            <div class="steps-item">
-              <div class="steps-item__pretitle">1 этап</div>
-              <h3>Подготовка</h3>
-              <p>На основе понимания потребностей вашего клиента, мы разрабатываем и согласовываем план беседы между операторами нашего колл-центра и клиентами. Затем мы осуществляем интеграцию с вашей CRM-системой, Google-таблицами или электронной почтой.</p>
-            </div>
-            <div class="steps-item">
-              <div class="steps-item__pretitle">2 этап</div>
-              <h3>Прозвон базы</h3>
-              <p>Прозваниваем любой объем базы в течение 2-3 дней. Согласно вашим критериям, отфильтровываем холодных клиентов и выделяем только тех, кто наиболее заинтересован. Отбор будем проводить в режиме реального времени.</p>
-            </div>
-            <div class="steps-item">
-              <div class="steps-item__pretitle">1 этап</div>
-              <h3>Контроль и сопровождение</h3>
-              <p>Мы предлагаем услуги технического сопровождения, контроля качества и записи всех телефонных разговоров. По запросу предоставляются отчеты. Также у вас будет возможность прослушать записи диалогов.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section questions">
-        <div class="container">
-          <h2>Ответы на <span class="primary">частые вопросы</span></h2>
-          <div class="expanding-tabs-list">
-            <div class="expanding-tab">
-              <div class="expanding-tab__head">
-                <p>Почему колл-центр — важная точка контакта для любого бизнеса?</p>
-                <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
-              </div>
-              <div class="expanding-tab__content">
-                <p>
-                  Чтобы заинтересовать и сохранить клиентов, мы применяем самые действенные способы взаимодействия.Какими способами можно взаимодействовать с клиентами?Это все ситуации, когда клиенты, возможные покупатели или партнеры контактируют с нашей компанией. Это включает в себя: вебсайты, социальные сети, сотрудников, визитные карточки, приемные, корпоративные презентации, отзывы и даже комнаты для переговоров в нашем офисе. Все это - способы контакта, при взаимодействии с которыми клиент формирует свое мнение о бизнесе и принимает различные решения на различных этапах процесса, например:
-                </p>
-                <ul>
-                  <li>
-                    <span>начать ли взаимодействие с нами,</span>
-                  </li>
-                  <li>
-                    <span>сделать это сейчас или позже,</span>
-                  </li>
-                  <li>
-                    <span>купить у нас или нет,</span>
-                  </li>
-                  <li>
-                    <span>продолжить работать с нами или перейти к конкурентам.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="expanding-tab">
-              <div class="expanding-tab__head">
-                <p>Как выглядит отчетность?</p>
-                <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
-              </div>
-              <div class="expanding-tab__content">
-                <p>Мы составляем для вас отчеты с необходимой периодичностью в котором будут отражены количество и тематика обращений, данные клиента, результат диалога и другая необходимая информация по итогам анкетирования, которая в будущем поможет вам скорректировать ход рекламной кампании и направление развития.</p>
-              </div>
-            </div>
-            <div class="expanding-tab">
-              <div class="expanding-tab__head">
-                <p>Как происходит подготовка проекта к запуску?</p>
-                <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
-              </div>
-              <div class="expanding-tab__content">
-                <p>Подготовка к проекту в call-центре включает определение целей и задач, исследование рынка и конкурентов, разработку стратегии и плана, обучение персонала и разработку маркетинговых материалов.</p>
-              </div>
-            </div>
-            <div class="expanding-tab">
-              <div class="expanding-tab__head">
-                <p>Где находятся ваши площадки?</p>
-                <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
-              </div>
-              <div class="expanding-tab__content">
-                <p>Наши площадки находятся в Екатеринбурге, Нижнем Новгороде и Казани</p>
-              </div>
-            </div>
-          </div>
-        </div>        
-      </section>
-      <section class="section application">
-        <div class="container">
-          <div class="application-content">
-            <div class="application-form">
-              <h2>Оставьте заявку на консультацию</h2>
-              <form>
-                <div class="input-wrap">
-                    <input type="text" placeholder="Ваше имя">
-                </div>
-                <div class="input-wrap">
-                    <img src="/images/russia.png" alt="">
-                    <input type="phone" placeholder="+ 7 (922) 177 03-97">
-                </div>
-                <button class="submit center" type="submit">Оставить заявку</button>
-              </form>
-            </div>
-            <div class="application-image">
-              <img src="/images/application-image.png" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
+    </section>
+    <section class="calls section" id="calls">
       <div class="container">
-          <div class="footer-column footer-main ">
-            <a href="#" class="footer-logo center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
-                <path d="M27.1 28.5C24.3222 28.5 21.5724 27.9 18.8507 26.7C16.1289 25.5 13.6564 23.7889 11.4333 21.5667C9.21111 19.3444 7.5 16.8778 6.3 14.1667C5.1 11.4556 4.5 8.7 4.5 5.9V4.5H12.3667L13.6 11.2L9.8 15.0333C10.2889 15.9 10.8333 16.7222 11.4333 17.5C12.0333 18.2778 12.6778 19 13.3667 19.6667C14.0111 20.3111 14.7169 20.928 15.484 21.5173C16.2511 22.1067 17.0787 22.6564 17.9667 23.1667L21.8333 19.3L28.5 20.6667V28.5H27.1Z" fill="white"/>
-              </svg>
-              <span>JU CALL</span>
-            </a>
-            <p class="footer-copyright">
-              © 2024 Все права защищены.Копирование любой информации с сайта не допускается без разрешения правообладателя.
-            </p>
+        <h2>
+          Предлагаем послушать 
+          <span class="primary">разговоры наших менеджеров</span>
+        </h2>
+        <div class="calls-examples">
+          <div class="calls-audio">
+            <img class="calls-audio__image" src="/images/call-example-1.png" alt="">
+            <h3>Недвижимость</h3>
+            <button class="calls-audio__controlls center" data-audio="/audio/audio-example-1.mp3" type="button">
+              <img class="audio-start" src="/images/audio-start.svg" alt="">
+              <img class="audio-pause" src="/images/audio-pause.svg" alt="">
+              <span class="audio-example-text"></span>
+            </button>
           </div>
-          <div class="footer-links">
-              <div class="footer-column">
-                  <div class="footer-contact">
-                      <p class="footer-contact__title">Телефон</p>
-                      <a class="footer-contact__link" href="tel:+79238884970"> +7 (923) 888-49-70</a>
-                  </div>
-                  <div class="footer-contact">
-                      <p class="footer-contact__title">Режим работы</p>
-                      <a class="footer-contact__link" href="#"> ПН – ПТ / 10:00 – 19:00 мск</a>
-                  </div>
-                  <div class="footer-contact">
-                    <p class="footer-contact__title">Почта:</p>
-                    <a class="footer-contact__link" href="#">info@thecoldsales.ru</a>
-                </div>
-              </div>
-              <nav>
-                <a href="#">Примеры разговоров</a>
-                <a href="#">Запросы</a>
-                <a href="#">Что входит в работу</a>
-                <a href="#">Почему мы</a>
-              </nav>
+          <div class="calls-audio">
+            <img class="calls-audio__image" src="/images/call-example-2.png" alt="">
+            <h3>Установка кухни</h3>
+            <button class="calls-audio__controlls center" data-audio="/audio/audio-example-2.mp3" type="button">
+              <img class="audio-start" src="/images/audio-start.svg" alt="">
+              <img class="audio-pause" src="/images/audio-pause.svg" alt="">
+              <span class="audio-example-text"></span>
+            </button>
           </div>
-      </div>
-    </footer>
-    <div class="wrap-modals-all">
-      <div class="mobile-menu modal-wrap" id="mobile-menu">
-        <div class="modal">
-          <nav>
-            <a href="#">Примеры разговоров</a>
-            <a href="#">Запросы</a>
-            <a href="#">Что входит в работу</a>
-            <a href="#">Почему мы</a>
-          </nav>
-          <button class="mobile-menu__call center" type="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
-              <path d="M27.1 28.5C24.3222 28.5 21.5724 27.9 18.8507 26.7C16.1289 25.5 13.6564 23.7889 11.4333 21.5667C9.21111 19.3444 7.5 16.8778 6.3 14.1667C5.1 11.4556 4.5 8.7 4.5 5.9V4.5H12.3667L13.6 11.2L9.8 15.0333C10.2889 15.9 10.8333 16.7222 11.4333 17.5C12.0333 18.2778 12.6778 19 13.3667 19.6667C14.0111 20.3111 14.7169 20.928 15.484 21.5173C16.2511 22.1067 17.0787 22.6564 17.9667 23.1667L21.8333 19.3L28.5 20.6667V28.5H27.1Z" fill="#3CA2FF"/>
-            </svg>
-            Заказать звонок
-          </button>
+          <div class="calls-audio">
+            <img class="calls-audio__image" src="/images/call-example-3.png" alt="">
+            <h3>Установка окон</h3>
+            <button class="calls-audio__controlls center" data-audio="/audio/audio-example-3.mp3" type="button">
+              <img class="audio-start" src="/images/audio-start.svg" alt="">
+              <img class="audio-pause" src="/images/audio-pause.svg" alt="">
+              <span class="audio-example-text"></span>
+            </button>
+          </div>
+          <div class="calls-audio">
+            <img class="calls-audio__image" src="/images/call-example-4.png" alt="">
+            <h3>Стоматология</h3>
+            <button class="calls-audio__controlls center" data-audio="/audio/audio-example-4.mp3" type="button">
+              <img class="audio-start" src="/images/audio-start.svg" alt="">
+              <img class="audio-pause" src="/images/audio-pause.svg" alt="">
+              <span class="audio-example-text"></span>
+            </button>
+          </div>
         </div>
       </div>
-      <div class="modal-wrap" id="special-offer">
-        <div class="modal">
-          <div class="modal-content">
-            <div class="modal-info">
-              <div class="modal-info__title">Спецпредложение</div>
-              <div class="timer" id="offer-timer">
-                <div class="minutes">
-                  <span>0</span>
-                  <span>0</span>
-                </div>
-                <div>:</div>
-                <div class="seconds">
-                  <span>0</span>
-                  <span>0</span>
-                </div>
-              </div>
-              <p class="modal-info__text">Закажите наши услуги сейчас и получите возможность <strong>бесплатно протестировать работу Call-центра</strong> перед заключением договора</p>
+      <div class="calls-button_wrap center">
+        <button class="calls-button btn center">Послушать звонки в моей сфере</button>
+      </div>
+    </section>
+    <section class="section work" id="work">
+      <div class="container">
+        <h2>Что <span class="primary">входит в работу</span></h2>
+        <div class="work-content">
+          <ul>
+            <li>Работа в CRM заказчика, контроль качества</li>
+            <li>Формирование отчета с рекомендациями</li>
+            <li>Предоставление записей разговоров</li>
+            <li>Обучение операторов продукту заказчика</li>
+            <li>Подготовки проекта до 1 рабочего дня</li>
+            <li>Оплата телефонии</li>
+            <li>Подготовки и ведения проекта</li>
+            <li>Администрирование проекта </li>
+            <li>Первичная подготовка сценария</li>
+            <li>Внесение корректировок в скрипт</li>
+          </ul>
+          <div class="work-image">
+            <img src="/images/work-image.png" alt="">
+            <button class="btn center">Узнать стоимость</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section requests" id="requests">
+      <div class="container">
+        <h2>Работаем с <span class="primary">различными запросами</span></h2>
+        <div class="requests-content">
+          <div class="requests-item center">
+            <img class="requests-item__image" src="/images/requests-item-1.svg" alt="">
+            <div class="requests-item__info">
+              <h3>Информирование</h3>
+              <ul>
+                <li>об акции;</li>
+                <li>о задолженности;</li>
+                <li>о каких-либо изменениях в компании.</li>
+              </ul>
             </div>
-            <form class="modal-form">
+          </div>
+          <div class="requests-item center">
+            <img class="requests-item__image" src="/images/requests-item-2.svg" alt="">
+            <div class="requests-item__info">
+              <h3>Анкетирование</h3>
+              <ul>
+                <li>оценка качества работы (проделанной работы/услуги);</li>
+                <li>социальный опрос;</li>
+                <li>причины отказа.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="requests-item center">
+            <img class="requests-item__image" src="/images/requests-item-3.svg" alt="">
+            <div class="requests-item__info">
+              <h3>Актуализация</h3>
+              <ul>
+                <li>подтверждение записи;</li>
+                <li>возврат клиента;</li>
+                <li>выявление заинтересованности.</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="section steps" id="steps">
+      <div class="container">
+        <h2>Этапы <span class="primary">работы</span></h2>
+        <div class="steps-content">
+          <div class="steps-item">
+            <div class="steps-item__pretitle">1 этап</div>
+            <h3>Подготовка</h3>
+            <p>На основе понимания потребностей вашего клиента, мы разрабатываем и согласовываем план беседы между операторами нашего колл-центра и клиентами. Затем мы осуществляем интеграцию с вашей CRM-системой, Google-таблицами или электронной почтой.</p>
+          </div>
+          <div class="steps-item">
+            <div class="steps-item__pretitle">2 этап</div>
+            <h3>Прозвон базы</h3>
+            <p>Прозваниваем любой объем базы в течение 2-3 дней. Согласно вашим критериям, отфильтровываем холодных клиентов и выделяем только тех, кто наиболее заинтересован. Отбор будем проводить в режиме реального времени.</p>
+          </div>
+          <div class="steps-item">
+            <div class="steps-item__pretitle">1 этап</div>
+            <h3>Контроль и сопровождение</h3>
+            <p>Мы предлагаем услуги технического сопровождения, контроля качества и записи всех телефонных разговоров. По запросу предоставляются отчеты. Также у вас будет возможность прослушать записи диалогов.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section questions">
+      <div class="container">
+        <h2>Ответы на <span class="primary">частые вопросы</span></h2>
+        <div class="expanding-tabs-list">
+          <div class="expanding-tab">
+            <div class="expanding-tab__head">
+              <p>Почему колл-центр — важная точка контакта для любого бизнеса?</p>
+              <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
+            </div>
+            <div class="expanding-tab__content">
+              <p>
+                Чтобы заинтересовать и сохранить клиентов, мы применяем самые действенные способы взаимодействия.Какими способами можно взаимодействовать с клиентами?Это все ситуации, когда клиенты, возможные покупатели или партнеры контактируют с нашей компанией. Это включает в себя: вебсайты, социальные сети, сотрудников, визитные карточки, приемные, корпоративные презентации, отзывы и даже комнаты для переговоров в нашем офисе. Все это - способы контакта, при взаимодействии с которыми клиент формирует свое мнение о бизнесе и принимает различные решения на различных этапах процесса, например:
+              </p>
+              <ul>
+                <li>
+                  <span>начать ли взаимодействие с нами,</span>
+                </li>
+                <li>
+                  <span>сделать это сейчас или позже,</span>
+                </li>
+                <li>
+                  <span>купить у нас или нет,</span>
+                </li>
+                <li>
+                  <span>продолжить работать с нами или перейти к конкурентам.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="expanding-tab">
+            <div class="expanding-tab__head">
+              <p>Как выглядит отчетность?</p>
+              <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
+            </div>
+            <div class="expanding-tab__content">
+              <p>Мы составляем для вас отчеты с необходимой периодичностью в котором будут отражены количество и тематика обращений, данные клиента, результат диалога и другая необходимая информация по итогам анкетирования, которая в будущем поможет вам скорректировать ход рекламной кампании и направление развития.</p>
+            </div>
+          </div>
+          <div class="expanding-tab">
+            <div class="expanding-tab__head">
+              <p>Как происходит подготовка проекта к запуску?</p>
+              <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
+            </div>
+            <div class="expanding-tab__content">
+              <p>Подготовка к проекту в call-центре включает определение целей и задач, исследование рынка и конкурентов, разработку стратегии и плана, обучение персонала и разработку маркетинговых материалов.</p>
+            </div>
+          </div>
+          <div class="expanding-tab">
+            <div class="expanding-tab__head">
+              <p>Где находятся ваши площадки?</p>
+              <img class="expanding-tab__head-icon" src="/images/expanding-tab-icon.svg" alt="">
+            </div>
+            <div class="expanding-tab__content">
+              <p>Наши площадки находятся в Екатеринбурге, Нижнем Новгороде и Казани</p>
+            </div>
+          </div>
+        </div>
+      </div>        
+    </section>
+    <section class="section application">
+      <div class="container">
+        <div class="application-content">
+          <div class="application-form">
+            <h2>Оставьте заявку на консультацию</h2>
+            <form>
               <div class="input-wrap">
                   <input type="text" placeholder="Ваше имя">
               </div>
@@ -371,19 +279,108 @@
               </div>
               <button class="submit center" type="submit">Оставить заявку</button>
             </form>
-            <div class="modal-image">
-              <img class="" src="/images/modal-image.png" alt="">
-            </div>
           </div>
-          <button class="modal-close center" type="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8499 6.84994C30.9615 6.73837 31.05 6.60592 31.1104 6.46014C31.1708 6.31437 31.2019 6.15813 31.2019 6.00034C31.2019 5.84256 31.1708 5.68632 31.1104 5.54054C31.05 5.39477 30.9615 5.26231 30.8499 5.15074C30.7384 5.03917 30.6059 4.95067 30.4601 4.89029C30.3144 4.82991 30.1581 4.79883 30.0003 4.79883C29.8426 4.79883 29.6863 4.82991 29.5405 4.89029C29.3948 4.95067 29.2623 5.03917 29.1507 5.15074L18.0003 16.3035L6.84994 5.15074C6.73837 5.03917 6.60592 4.95067 6.46014 4.89029C6.31437 4.82991 6.15813 4.79883 6.00034 4.79883C5.84256 4.79883 5.68632 4.82991 5.54054 4.89029C5.39477 4.95067 5.26231 5.03917 5.15074 5.15074C5.03917 5.26231 4.95067 5.39477 4.89029 5.54054C4.82991 5.68632 4.79883 5.84256 4.79883 6.00034C4.79883 6.15813 4.82991 6.31437 4.89029 6.46014C4.95067 6.60592 5.03917 6.73837 5.15074 6.84994L16.3035 18.0003L5.15074 29.1507C4.92542 29.3761 4.79883 29.6817 4.79883 30.0003C4.79883 30.319 4.92542 30.6246 5.15074 30.8499C5.37607 31.0753 5.68168 31.2019 6.00034 31.2019C6.31901 31.2019 6.62462 31.0753 6.84994 30.8499L18.0003 19.6971L29.1507 30.8499C29.3761 31.0753 29.6817 31.2019 30.0003 31.2019C30.319 31.2019 30.6246 31.0753 30.8499 30.8499C31.0753 30.6246 31.2019 30.319 31.2019 30.0003C31.2019 29.6817 31.0753 29.3761 30.8499 29.1507L19.6971 18.0003L30.8499 6.84994Z" fill="#3CA2FF"/>
-            </svg>
-          </button>
+          <div class="application-image">
+            <img src="/images/application-image.png" alt="">
+          </div>
         </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-column footer-main ">
+          <a href="#" class="footer-logo center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+              <path d="M27.1 28.5C24.3222 28.5 21.5724 27.9 18.8507 26.7C16.1289 25.5 13.6564 23.7889 11.4333 21.5667C9.21111 19.3444 7.5 16.8778 6.3 14.1667C5.1 11.4556 4.5 8.7 4.5 5.9V4.5H12.3667L13.6 11.2L9.8 15.0333C10.2889 15.9 10.8333 16.7222 11.4333 17.5C12.0333 18.2778 12.6778 19 13.3667 19.6667C14.0111 20.3111 14.7169 20.928 15.484 21.5173C16.2511 22.1067 17.0787 22.6564 17.9667 23.1667L21.8333 19.3L28.5 20.6667V28.5H27.1Z" fill="white"/>
+            </svg>
+            <span>JU CALL</span>
+          </a>
+          <p class="footer-copyright">
+            © 2024 Все права защищены.Копирование любой информации с сайта не допускается без разрешения правообладателя.
+          </p>
+        </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <div class="footer-contact">
+                    <p class="footer-contact__title">Телефон</p>
+                    <a class="footer-contact__link" href="tel:+79238884970"> +7 (923) 888-49-70</a>
+                </div>
+                <div class="footer-contact">
+                    <p class="footer-contact__title">Режим работы</p>
+                    <a class="footer-contact__link" href="#"> ПН – ПТ / 10:00 – 19:00 мск</a>
+                </div>
+                <div class="footer-contact">
+                  <p class="footer-contact__title">Почта:</p>
+                  <a class="footer-contact__link" href="#">info@thecoldsales.ru</a>
+              </div>
+            </div>
+            <nav>
+              <a href="#">Примеры разговоров</a>
+              <a href="#">Запросы</a>
+              <a href="#">Что входит в работу</a>
+              <a href="#">Почему мы</a>
+            </nav>
+        </div>
+    </div>
+  </footer>
+  <div class="wrap-modals-all">
+    <div class="mobile-menu modal-wrap center" id="mobile-menu">
+      <div class="modal">
+        <nav>
+          <a href="#">Примеры разговоров</a>
+          <a href="#">Запросы</a>
+          <a href="#">Что входит в работу</a>
+          <a href="#">Почему мы</a>
+        </nav>
+        <button class="mobile-menu__call center" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+            <path d="M27.1 28.5C24.3222 28.5 21.5724 27.9 18.8507 26.7C16.1289 25.5 13.6564 23.7889 11.4333 21.5667C9.21111 19.3444 7.5 16.8778 6.3 14.1667C5.1 11.4556 4.5 8.7 4.5 5.9V4.5H12.3667L13.6 11.2L9.8 15.0333C10.2889 15.9 10.8333 16.7222 11.4333 17.5C12.0333 18.2778 12.6778 19 13.3667 19.6667C14.0111 20.3111 14.7169 20.928 15.484 21.5173C16.2511 22.1067 17.0787 22.6564 17.9667 23.1667L21.8333 19.3L28.5 20.6667V28.5H27.1Z" fill="#3CA2FF"/>
+          </svg>
+          Заказать звонок
+        </button>
+      </div>
+    </div>
+    <div class="modal-wrap center" id="special-offer">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-info">
+            <div class="modal-info__title">Спецпредложение</div>
+            <div class="timer" id="offer-timer">
+              <div class="minutes">
+                <span>0</span>
+                <span>0</span>
+              </div>
+              <div>:</div>
+              <div class="seconds">
+                <span>0</span>
+                <span>0</span>
+              </div>
+            </div>
+            <p class="modal-info__text">Закажите наши услуги сейчас и получите возможность <strong>бесплатно протестировать работу Call-центра</strong> перед заключением договора</p>
+          </div>
+          <form class="modal-form">
+            <div class="input-wrap">
+                <input type="text" placeholder="Ваше имя">
+            </div>
+            <div class="input-wrap">
+                <img src="/images/russia.png" alt="">
+                <input type="phone" placeholder="+ 7 (922) 177 03-97">
+            </div>
+            <button class="submit center" type="submit">Оставить заявку</button>
+          </form>
+          <div class="modal-image">
+            <img class="" src="/images/modal-image.png" alt="">
+          </div>
+        </div>
+        <button class="modal-close center" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8499 6.84994C30.9615 6.73837 31.05 6.60592 31.1104 6.46014C31.1708 6.31437 31.2019 6.15813 31.2019 6.00034C31.2019 5.84256 31.1708 5.68632 31.1104 5.54054C31.05 5.39477 30.9615 5.26231 30.8499 5.15074C30.7384 5.03917 30.6059 4.95067 30.4601 4.89029C30.3144 4.82991 30.1581 4.79883 30.0003 4.79883C29.8426 4.79883 29.6863 4.82991 29.5405 4.89029C29.3948 4.95067 29.2623 5.03917 29.1507 5.15074L18.0003 16.3035L6.84994 5.15074C6.73837 5.03917 6.60592 4.95067 6.46014 4.89029C6.31437 4.82991 6.15813 4.79883 6.00034 4.79883C5.84256 4.79883 5.68632 4.82991 5.54054 4.89029C5.39477 4.95067 5.26231 5.03917 5.15074 5.15074C5.03917 5.26231 4.95067 5.39477 4.89029 5.54054C4.82991 5.68632 4.79883 5.84256 4.79883 6.00034C4.79883 6.15813 4.82991 6.31437 4.89029 6.46014C4.95067 6.60592 5.03917 6.73837 5.15074 6.84994L16.3035 18.0003L5.15074 29.1507C4.92542 29.3761 4.79883 29.6817 4.79883 30.0003C4.79883 30.319 4.92542 30.6246 5.15074 30.8499C5.37607 31.0753 5.68168 31.2019 6.00034 31.2019C6.31901 31.2019 6.62462 31.0753 6.84994 30.8499L18.0003 19.6971L29.1507 30.8499C29.3761 31.0753 29.6817 31.2019 30.0003 31.2019C30.319 31.2019 30.6246 31.0753 30.8499 30.8499C31.0753 30.6246 31.2019 30.319 31.2019 30.0003C31.2019 29.6817 31.0753 29.3761 30.8499 29.1507L19.6971 18.0003L30.8499 6.84994Z" fill="#3CA2FF"/>
+          </svg>
+        </button>
       </div>
     </div>
   </div>
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

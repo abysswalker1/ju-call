@@ -79,6 +79,13 @@
     }
     &-item {
      flex-direction: column;
+     h3 {
+      font-size: 24px;  
+      margin-bottom: 8px;
+      }
+      ul {
+        font-size: 16px;
+      }
     }
   }
 }
